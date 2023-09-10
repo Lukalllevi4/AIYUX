@@ -1,0 +1,305 @@
+::before
+::after{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+ul,
+ol,
+li {
+    list-style: none;
+}
+img {
+    vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+html,
+body {
+    height: 100%;
+    line-height: 1;
+    font-size: 16px;
+    color: #000;
+    font-family: Nunito sans;
+}
+/* ----------------------------------------- */
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+    background-image: url("../img/bgblue.png");
+    background-repeat: no-repeat;
+}
+/* ----------------------------------------- */
+._container {
+    max-width: 677px;
+    margin: 0px auto;
+}
+/* --------------ШАПКА------------------------------------- */
+.headerContainer {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.header-logo{
+    display: flex;
+    margin: 20px;
+}
+
+.header-nav{
+    display: flex;
+    flex-direction: row;
+}
+
+.header-nav-item{
+    display: flex;
+    margin: 20px;
+}
+
+.pond{
+    display: flex;
+    justify-content: center;
+}
+
+.img-cvm{
+    margin:0 auto;
+    display: block;
+    max-width: 100%;
+}
+
+.bgblue{
+    z-index: -1;
+    position: absolute; 
+}
+
+.signup{
+    display: flex;
+    width: 120px;
+}
+
+.nav-link{
+    display: flex;
+    margin-top: 28px;
+    color: #0D0B0B;
+    font-size: large;
+}
+
+.menu-link{
+    display: flex;
+    color: white;
+    border-radius: 6px;
+    background-color: #AF69D0;
+    padding: 10px;;
+    margin-top: 20px;
+    transition: 0.1s all;
+}
+
+.menu-link:hover{
+    transform: rotate(360deg);
+}
+
+
+
+.nav-link:hover{
+    font-size: 20px;
+}
+
+/* --------------BODY--------------- */
+
+.cvmpresent{
+    display: flex;
+    background-size: contain;
+    color: #000;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 10px;
+    width: 203px;
+}
+
+.sectionHands{
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.info{
+    display: flex;
+    font-size: 50px;
+    color: #ffffff;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+
+
+.hands{
+    display: flex;
+    width: 740px;
+}
+
+.line-2{
+    border-top: 6px solid #AA65CA;;
+    width: 60px;
+    border-radius: 6px;
+    margin-top: 20px;
+    margin-left: 100px;
+  }
+
+.info2{
+    display: flex;
+    color: #ffffff;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.start{
+    display: flex;
+    color: white;
+    border-radius: 6px;
+    background-color: #AF69D0;
+    padding: 20px;
+    margin-top: 20px;
+    width: 120px;
+    border-color: #000;
+    border: 5px;
+}
+
+.start:hover{
+    font-size: 20px;
+}
+
+.Features{
+    display: flex;
+    justify-content: center;
+    font-size: 48px;
+}
+
+.space{
+    display: flex;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+.cvc{
+    display: flex;
+    margin-left: 100px;
+    margin-top: 150px;
+    font-size: 35px;
+}
+
+.podsection4{
+    display: flex;
+}
+
+.text2{
+    margin-bottom: 50px;
+}
+
+.info4{
+    max-width: 685px;
+    margin-left: 100px;
+    margin-top: 30px;
+    font-size: 26px;
+}
+
+.container{
+    max-width: 1540px;
+    margin: 0 auto;
+}
+
+.sectionWelcome{
+    display: flex;
+}
+
+.line-1{
+    border-top: 6px solid #3ADAD9;
+    width: 40px;
+    border-radius: 6px;
+    margin-top: 20px;
+}    
+
+.secFeatures{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 140px;
+}
+
+.canDo{
+    display: flex;
+    justify-content: center;
+    font-size: 48px;
+}
+
+.podsection5{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.unleash{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.headerUnleas{
+    display: flex;
+    justify-content: center;
+    color: #2B3377;
+    margin-top: 20px;
+    font-size: 28px;
+}
+
+.unleashInfo{
+    display: flex;
+    text-align: center;
+    margin-top: 20px;
+    width: 437px;
+    font-size: 20px;
+}
+
+.kvadrat{
+    display: flex;
+    justify-content: center;
+    width: 102px;
+    height: 102px;
+    flex-shrink: 0;
+}
+
+
+.podsection5{
+    margin-top: 80px;
+}
+
+.secCan{
+    margin-top: 140px;
+}
+
+.graph{
+    display: block;
+    margin: auto;
+}
+
+.hello{
+    display: flex;
+    justify-content: center;
+    font-size: 28px;
+    margin-top: 140px;
+}
+
+.buttonContainer{   
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
