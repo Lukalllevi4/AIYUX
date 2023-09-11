@@ -186,8 +186,8 @@ body {
 
 .space{
     display: flex;
-    margin-left: 100px;
     margin-top: 30px;
+    margin-right: 35px;
 }
 
 .cvc{
@@ -302,7 +302,7 @@ body {
 .buttonContainer{   
     display: flex;
     justify-content: center;
-    margin-top: 25px;
+    margin-top: 50px;
 }
 
 .freeSpace{
