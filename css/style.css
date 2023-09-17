@@ -227,6 +227,45 @@ body {
     }
 }
 
+@media(max-width:1300px){
+    .sectionHands{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media(max-width:1300px){
+    .hands{
+        margin-top: 20px;
+    }
+}
+
+@media(max-width:1300px){
+    .info{
+        margin-top: 50px;
+    5
+}
+
+@media(max-width:1300px){
+    .info2{
+        margin-top: 50px;
+    }
+}
+
+@media(max-width:1300px){
+    .start{
+        margin-top: 50px;
+    }
+}
+
+@media(max-width: 1300px){
+    .podsection1{
+        max-width: 970px;
+    }
+}
+
 @media (max-width:2500px){
     .info{
         max-width: 2000px;
@@ -243,6 +282,12 @@ body {
 @media(max-width:1400px){
     .podsection1{
         margin-left: 20px;
+    }
+}
+
+@media(max-width:1570px){
+    .nav-link{
+        color: #ffffff;
     }
 }
 
