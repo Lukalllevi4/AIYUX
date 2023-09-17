@@ -166,6 +166,7 @@ body {
 
 .start{
     display: flex;
+    justify-content: center;
     color: white;
     border-radius: 6px;
     background-color: #AF69D0;
@@ -182,6 +183,7 @@ body {
     display: flex;
     justify-content: center;
     font-size: 48px;
+    margin-top: 150px;
 }
 
 .space{
@@ -213,8 +215,35 @@ body {
 }
 
 .container{
-    max-width: 1540px;
+    max-width: 1300px;
     margin: 0 auto;
+}
+
+@media (max-width:1300px){
+    .container{
+        max-width: 1300px;
+        display: flex;
+        align-items: column;
+    }
+}
+
+@media (max-width:2500px){
+    .info{
+        max-width: 2000px;
+    }
+}
+
+@media (max-width:1300px){
+    .podsection5{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media(max-width:1400px){
+    .podsection1{
+        margin-left: 20px;
+    }
 }
 
 .sectionWelcome{
@@ -231,7 +260,6 @@ body {
 .secFeatures{
     display: flex;
     justify-content: space-between;
-    margin-top: 140px;
 }
 
 .canDo{
@@ -242,10 +270,9 @@ body {
 
 .podsection5{
     display: flex;
-    justify-content: space-around;
+    justify-content: center ;
     align-items: flex-start;
-    padding-left: 488px;
-    padding-right: 488px;
+
 }
 
 .unleash{
@@ -256,6 +283,7 @@ body {
 
 .headerUnleas{
     display: flex;
+
     justify-content: center;
     color: #2B3377;
     margin-top: 20px;
@@ -296,8 +324,10 @@ body {
     display: flex;
     justify-content: center;
     font-size: 28px;
-    margin-top: 140px;
+    background: #FAFAFF;
 }
+
+
 
 .buttonContainer{   
     display: flex;
@@ -306,5 +336,21 @@ body {
 }
 
 .freeSpace{
+    background: #FAFAFF;
     height: 20px; 
+    margin-top: ;
+  }
+
+  .lastSec{
+    background: #FAFAFF;
+    margin-top: 150px;
+  }
+
+  .freeSpace2{
+    background: #FAFAFF;
+    height: 20px; 
+  }
+
+  .nav-link:hover{
+    color: rgba(6, 49, 180, 0.996);
   }
